@@ -1,7 +1,7 @@
 package Homework_1;
 
 public class Animal {
-    public String name;
+    protected String name;
     private Integer age;
     private Boolean vaccination;
     private String color;
@@ -9,7 +9,7 @@ public class Animal {
     private Owner owner;
     private Integer legsCount;
 
-    public Animal(String name, Integer age, Boolean vaccination2, String color,
+    public Animal(String name, Integer age, Boolean vaccination, String color,
             String species, Owner owner, Integer legsCount) {
         this.name = name;
         this.age = age;
